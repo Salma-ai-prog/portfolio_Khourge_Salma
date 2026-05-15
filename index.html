@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Portfolio Salma Zaina</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="header">
+
+       <nav class="navbar">
+
+    <h1 class="logo">Mon Portfolio</h1>
+
+    <div class="menu-toggle">
+        ☰ 
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+</nav>
+    </header>
+<!-- Hero Section -->
+
+<section class="hero" id="accueil">
+    <div class="hero-text">
+
+        <h2>Salut, je suis Salma</h2>
+
+        <h3>Développeuse Front-End</h3>
+
+        <p>
+            Je crée des sites web modernes,
+            responsives et interactifs avec
+            HTML, CSS et JavaScript.
+        </p>
+
+        <a href="#" class="hero-btn">
+            Voir mes projets
+        </a>
+
+    </div>
+
+    <div class="hero-image">
+
+        <img src="assets/images/profile.jpg" alt="Photo Profil">
+
+    </div>
+
+</section>
+<!-- Skills Section -->
+
+<section class="skills" id="competences">
+
+    <h2 class="section-title">
+        Mes Compétences
+    </h2>
+
+    <div class="skills-container">
+
+        <!-- Skill Card 1 -->
+        <div class="skill-card">
+
+            <h3>HTML</h3>
+
+            <p>
+                Structure des pages web modernes
+            </p>
+
+        </div>
+
+        <!-- Skill Card 2 -->
+        <div class="skill-card">
+
+            <h3>CSS</h3>
+
+            <p>
+                Stylisation et responsive design
+            </p>
+
+        </div>
+
+        <!-- Skill Card 3 -->
+        <div class="skill-card">
+
+            <h3>JavaScript</h3>
+
+            <p>
+                Interactions et logique dynamique
+            </p>
+
+        </div>
+
+        <!-- Skill Card 4 -->
+        <div class="skill-card">
+
+            <h3>React</h3>
+
+            <p>
+                Création d’interfaces modernes
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- Projects Section -->
+
+<section class="projects" id="projets">
+
+    <h2 class="section-title">
+        Mes Projets
+    </h2>
+
+    <div class="projects-container">
+
+        <!-- Project Card 1 -->
+
+        <div class="project-card">
+
+            <img src="assets/images/project.jpg" alt="Projet 1">
+
+            <div class="project-content">
+
+                <h3>Portfolio Website</h3>
+
+                <p>
+                    Site portfolio moderne créé
+                    avec HTML, CSS et JavaScript.
+                </p>
+
+                <span>
+                    HTML • CSS • JS
+                </span>
+
+                <a href="#" class="project-btn">
+                    Voir GitHub
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Project Card 2 -->
+
+        <div class="project-card">
+
+            <img src="assets/images/project.jpg" alt="Projet 2">
+
+            <div class="project-content">
+
+                <h3>Weather App</h3>
+
+                <p>
+                    Application météo utilisant
+                    une API avec fetch().
+                </p>
+
+                <span>
+                    JavaScript • API
+                </span>
+
+                <a href="#" class="project-btn">
+                    Voir GitHub
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Project Card 3 -->
+
+        <div class="project-card">
+
+            <img src="assets/images/project.jpg" alt="Projet 3">
+
+            <div class="project-content">
+
+                <h3>ToDo App</h3>
+
+                <p>
+                    Gestionnaire de tâches interactif
+                    et responsive.
+                </p>
+
+                <span>
+                    HTML • CSS • JS
+                </span>
+
+                <a href="#" class="project-btn">
+                    Voir GitHub
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- GitHub API Section -->
+
+<section class="github">
+
+    <h2 class="section-title">
+        Mes Repositories GitHub
+    </h2>
+
+     <p class="loader">
+      Chargement des repositories...
+     </p>
+
+    <div class="repos-container">
+
+    </div>
+
+</section>
+<!-- Contact Section -->
+
+<section class="contact" id="contact">
+
+    <h2 class="section-title">
+        Contact
+    </h2>
+
+    <form class="contact-form" id="contact-form">
+
+        <input type="text" id="name" placeholder="Votre nom">
+
+        <input type="email" id="email" placeholder="Votre email">
+
+        <textarea id="message" placeholder="Votre message"></textarea>
+
+        <button type="submit">
+            Envoyer
+        </button>
+        <p id="form-message"></p>
+
+    </form>
+    <!-- Footer -->
+
+<footer class="footer">
+
+    <p>
+        © 2026 Salma Zaina - Portfolio
+    </p>
+
+</footer>
+
+</section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
