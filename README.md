@@ -58,6 +58,7 @@ portfolio_salma_zaina/
 ## 📸 Capture d’écran
 
 ![Aperçu du site](assets/images/screenshot.png)
+![Aperçu du site](assets/images/image.png)
 
 ---
 
